@@ -1,0 +1,47 @@
+@import "mixin";
+.basic-button{
+  width: 100%;
+  border: none;
+  font-size: 0.9em;
+  padding: 0.5em;
+  background-color: $primary-color;
+  @include transition(0.5s);
+  @include button-border(0.5em)
+}
+
+.basic-button:hover{
+  background-color: $secondary-color;
+  color: $font-light;
+  cursor: pointer;
+}
+
+.material-icon-btns{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.material-icon-btns:hover{
+  cursor: pointer;
+  outline: none;
+}
+.material-icon-btns:active{
+  outline: none;
+}
+
+.basic-button-sm{
+  margin: 0.2em;
+  border: none;
+  font-size: 0.6em;
+  padding: 0.5em;
+  background-color: $primary-color;
+  color: $font-light;
+  @include transition(0.5s);
+  @include button-border(0.5em)
+}
+
+.basic-button-sm:hover{
+  background-color: $secondary-color;
+  color: $font-light;
+  cursor: pointer;
+}

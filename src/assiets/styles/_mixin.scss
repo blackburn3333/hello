@@ -1,0 +1,51 @@
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin duration($value) {
+  -webkit-transition-duration: $value;
+  -moz-animation-duration: $value;
+  transition-duration: $value;
+}
+
+@mixin button-border($value) {
+  border-radius: $value;
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+  transition: $value;
+}
+
+@mixin borderRadius($size) {
+  border-radius: $size;
+}
+
+@mixin borderBottom($color,$size) {
+  border: none;
+  border-bottom: $size $color solid;
+}
+
+@mixin TextBoxBorder($color,$sizes) {
+  border: solid $color $sizes;
+}
+
+@mixin margin-top-bottom($value) {
+  margin-bottom: $value;
+  margin-top: $value;
+}
+
+@mixin background-color($color) {
+  background-color: $color;
+}
+
+@mixin padding-set($value) {
+  padding: $value;
+}
+
+@mixin font-set($color,$value) {
+  color: $color;
+  font-size: $value;
+}

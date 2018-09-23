@@ -1,0 +1,72 @@
+.text-input{
+  width: 100%;
+  font-size: 0.9em;
+  padding: 0.5em;
+  @include borderRadius(5px);
+  @include TextBoxBorder($input-primary,1px);
+  @include transition(0.5s);
+  @include margin-top-bottom(0.5em)
+}
+
+.text-input:hover{
+  @include TextBoxBorder($primary-color,1px);
+}
+
+.text-input-blue{
+  @include borderBottom($primary-color,1px);
+}
+
+.text-input-success{
+  @include borderBottom($color-success,1px);
+}
+
+.text-input-error{
+  @include borderBottom($color-error,1px);
+}
+
+.text-input-error-full{
+  @include TextBoxBorder($color-error,1px);
+}
+
+.text-input-success-full{
+  @include TextBoxBorder($color-success,1px);
+}
+.text-area{
+  resize: none;
+  width: 100%;
+  font-size: 0.9em;
+  padding: 0.5em;
+  @include TextBoxBorder($primary-color,1px);
+  @include transition(0.5s);
+}
+
+.text-input:focus{
+  outline: none;
+}
+
+.text-area:focus{
+  outline: none;
+}
+
+.custom-text-box{
+  width: 100%;
+  font-size: 0.6em;
+  padding: 0.5em;
+  @include borderRadius(5px);
+  @include TextBoxBorder($input-primary,1px);
+  @include transition(0.5s);
+  @include margin-top-bottom(0.5em)
+}
+
+.custom-text-box:hover{
+  @include TextBoxBorder($primary-color,1px);
+}
+
+.custom-text-box:focus{
+  @include TextBoxBorder($primary-color,1px);
+  outline: none;
+}
+.text-box-outer{
+  @include TextBoxBorder($primary-color,0.1px);
+  padding: 6px;
+}

@@ -1,0 +1,40 @@
+.main-row {
+  height: 100vh;
+}
+
+
+.side-nav {
+  background-color: $light-blue;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: $light-blue-dark;
+  border-radius: 0;
+}
+.side-nav-item {
+  font-size: 0.9em;
+  border-radius: 0;
+  color: $font-light;
+}
+
+.side-nav-item:hover {
+  background-color: $hover-color-nav;
+  border-radius: 0;
+  color: $font-light;
+}
+
+
+
+.side-nav-icon {
+  font-size: 0.9em;
+  margin-right: 1em;
+}
+
+.nav-mini-icon{
+  align-content: center;
+  align-items: center;
+}
+

@@ -1,0 +1,48 @@
+
+
+
+
+.basic-div{
+  height: 81.5vh;
+}
+
+.secondary-div{
+  height: 81.5vh;
+}
+
+.sub-div{
+  padding: 5vh;
+  padding-bottom: 0;
+}
+
+.generate-display{
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+}
+
+.table-view{
+  overflow: auto;
+  height: 50vh;
+}
+
+.code-view-pre{
+  overflow: auto;
+  height: 55vh;
+  padding: 2vh;
+}
+
+.clear-both{
+  clear: right;
+}
+.border-text-set-outer{
+  margin: 0;
+  padding: 0.5vh;
+}
+.border-text-set{
+  @include TextBoxBorder($primary-color,0.1px);
+  padding: 6px;
+  width: 100%;
+}

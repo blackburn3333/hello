@@ -1,0 +1,37 @@
+.error-text{
+  font-size: 0.8em;
+  color: $color-error;
+}
+
+.error-text-beta{
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+  transform: rotate(20deg);
+  color: $color-error;
+}
+
+.text-sm-cus{
+  font-size: 0.6em;
+  margin: 0;
+}
+.text-sm-cus-two{
+  font-size: 0.7em;
+  margin: 0;
+}
+.error-text-sm{
+  font-size: 0.6em;
+  color: $color-error;
+}
+
+.error-text-sm-cus-two{
+  font-size: 0.7em;
+  color: $color-error;
+}
+.error-text-sm-cus{
+  font-size: 1.5em;
+  color: $color-error;
+}
+.success-text-sm{
+  font-size: 0.6em;
+  color: $color-success;
+}
