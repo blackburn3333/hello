@@ -238,9 +238,6 @@ class Crud extends Component {
                                 <button className="basic-button-sm" onClick={(e) => this.downloadUpdate(e)}>Download
                                 </button>
                             </div>
-                            <div className="col-md-12 text-center">
-                                This will not generate Create table query. you can use this with existing table
-                            </div>
                             <div className="col-md-12">
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li className="nav-item">
