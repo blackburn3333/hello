@@ -244,99 +244,99 @@ class Crud extends Component {
                             <div className="col-md-12">
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li className="nav-item">
-                                        <a className="nav-link active" id="home-tab" data-toggle="tab" href="#view"
+                                        <a className="nav-link active" id="home-tab" data-toggle="tab" href="#view-crud"
                                            role="tab" aria-controls="home" aria-selected="true">HTML View</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="update-tab" data-toggle="tab" href="#update"
+                                        <a className="nav-link" id="update-tab" data-toggle="tab" href="#update-crud"
                                            role="tab" aria-controls="update" aria-selected="true">HTML update View</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="update-tab" data-toggle="tab" href="#delete"
+                                        <a className="nav-link" id="update-tab" data-toggle="tab" href="#delete-crud"
                                            role="tab" aria-controls="update" aria-selected="true">Delete</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller"
+                                        <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller-crud"
                                            role="tab" aria-controls="profile" aria-selected="false">Controller</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#insertQuery"
+                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#insertQuery-crud"
                                            role="tab" aria-controls="contact" aria-selected="false">Insert Class</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select"
+                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select-crud"
                                            role="tab" aria-controls="contact" aria-selected="false">Select Class</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#updateQuery"
+                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#updateQuery-crud"
                                            role="tab" aria-controls="contact" aria-selected="false">Update Class</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#deleteQuery"
+                                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#deleteQuery-crud"
                                            role="tab" aria-controls="contact" aria-selected="false">Delete Class</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" id="connection-tab" data-toggle="tab" href="#connection"
+                                        <a className="nav-link" id="connection-tab" data-toggle="tab" href="#connection-crud"
                                            role="tab" aria-controls="contact" aria-selected="false">Connection Class</a>
                                     </li>
                                 </ul>
                                 <div className="tab-content" id="myTabContent">
 
-                                    <div className="tab-pane fade show active" id="view" role="form"
+                                    <div className="tab-pane fade show active" id="view-crud" role="form"
                                          aria-labelledby="home-tab">
                                     <pre className="code-view-pre">
                                         {generatedView}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade show " id="update" role="form"
+                                    <div className="tab-pane fade show " id="update-crud" role="form"
                                          aria-labelledby="home-tab">
                                     <pre className="code-view-pre">
                                         {generatedUpdate}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade show " id="delete" role="form"
+                                    <div className="tab-pane fade show " id="delete-crud" role="form"
                                          aria-labelledby="home-tab">
                                     <pre className="code-view-pre">
                                         {generatedDelete}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="controller" role="tabpanel"
+                                    <div className="tab-pane fade" id="controller-crud" role="tabpanel"
                                          aria-labelledby="profile-tab">
                                         <pre className="code-view-pre">
                                             {generatedController}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="connection" role="tabpanel"
+                                    <div className="tab-pane fade" id="connection-crud" role="tabpanel"
                                          aria-labelledby="contact-tab">
                                         <pre className="code-view-pre">{generatedConnection}</pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="select" role="tabpanel"
+                                    <div className="tab-pane fade" id="select-crud" role="tabpanel"
                                          aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                         {generatedSelectQuery}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="insertQuery" role="tabpanel"
+                                    <div className="tab-pane fade" id="insertQuery-crud" role="tabpanel"
                                          aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                         {generatedInsertQuery}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="updateQuery" role="tabpanel"
+                                    <div className="tab-pane fade" id="updateQuery-crud" role="tabpanel"
                                          aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                         {generatedUpdateQuery}
                                     </pre>
                                     </div>
 
-                                    <div className="tab-pane fade" id="deleteQuery" role="tabpanel"
+                                    <div className="tab-pane fade" id="deleteQuery-crud" role="tabpanel"
                                          aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                         {generatedDeleteQuery}

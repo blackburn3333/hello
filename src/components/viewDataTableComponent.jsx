@@ -191,42 +191,42 @@ class ViewData extends Component {
                         <div className="col-md-12">
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item">
-                                    <a className="nav-link active" id="home-tab" data-toggle="tab" href="#view"
+                                    <a className="nav-link active" id="home-tab" data-toggle="tab" href="#view-view"
                                        role="tab" aria-controls="home" aria-selected="true">HTML View</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller"
+                                    <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller-view"
                                        role="tab" aria-controls="profile" aria-selected="false">Controller</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select"
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select-view"
                                        role="tab" aria-controls="contact" aria-selected="false">Select Class</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="connection-tab" data-toggle="tab" href="#connection"
+                                    <a className="nav-link" id="connection-tab" data-toggle="tab" href="#connection-view"
                                        role="tab" aria-controls="contact" aria-selected="false">Connection Class</a>
                                 </li>
                             </ul>
                             <div className="tab-content" id="myTabContent">
-                                <div className="tab-pane fade show active" id="view" role="form"
+                                <div className="tab-pane fade show active" id="view-view" role="form"
                                      aria-labelledby="home-tab">
                                     <pre className="code-view-pre">
                                         {this.state.generatedView}
                                     </pre>
                                 </div>
 
-                                <div className="tab-pane fade" id="controller" role="tabpanel"
+                                <div className="tab-pane fade" id="controller-view" role="tabpanel"
                                      aria-labelledby="profile-tab"><pre className="code-view-pre">
                                     {this.state.generatedController}
                                 </pre>
                                 </div>
 
-                                <div className="tab-pane fade" id="connection" role="tabpanel"
+                                <div className="tab-pane fade" id="connection-view" role="tabpanel"
                                      aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">{this.state.generatedConnection}</pre>
                                 </div>
 
-                                <div className="tab-pane fade" id="select" role="tabpanel"
+                                <div className="tab-pane fade" id="select-view" role="tabpanel"
                                      aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                     {this.state.generatedSelectQuery}

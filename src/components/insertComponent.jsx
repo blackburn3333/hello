@@ -296,47 +296,47 @@ class Insert extends Component {
                         <div className="col-md-12">
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item">
-                                    <a className="nav-link active" id="home-tab" data-toggle="tab" href="#form"
+                                    <a className="nav-link active" id="home-tab" data-toggle="tab" href="#form-insert"
                                        role="tab" aria-controls="home" aria-selected="true">HTML View</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller"
+                                    <a className="nav-link" id="profile-tab" data-toggle="tab" href="#controller-insert"
                                        role="tab" aria-controls="profile" aria-selected="false">Form Controller</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#insert" role="tab"
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#insert-insert" role="tab"
                                        aria-controls="contact" aria-selected="false">Insert Class</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select"
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#select-insert"
                                        role="tab" aria-controls="contact" aria-selected="false">Select Class</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#connection"
+                                    <a className="nav-link" id="contact-tab" data-toggle="tab" href="#connection-insert"
                                        role="tab" aria-controls="contact" aria-selected="false">Connection Class</a>
                                 </li>
                             </ul>
                             <div className="tab-content" id="myTabContent">
-                                <div className="tab-pane fade show active" id="form" role="form"
+                                <div className="tab-pane fade show active" id="form-insert" role="form"
                                      aria-labelledby="home-tab">
                                     <pre className="code-view-pre">
                                         {this.state.generatedHtmlView}
                                     </pre>
                                 </div>
-                                <div className="tab-pane fade" id="controller" role="tabpanel"
+                                <div className="tab-pane fade" id="controller-insert" role="tabpanel"
                                      aria-labelledby="profile-tab"><pre className="code-view-pre">
                                     {this.state.generatedViewController}
                                 </pre>
                                 </div>
-                                <div className="tab-pane fade" id="insert" role="tabpanel"
+                                <div className="tab-pane fade" id="insert-insert" role="tabpanel"
                                      aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">{this.state.generatedInsertQuery}</pre>
                                 </div>
-                                <div className="tab-pane fade" id="connection" role="tabpanel"
+                                <div className="tab-pane fade" id="connection-insert" role="tabpanel"
                                      aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">{this.state.generatedConnectionString}</pre>
                                 </div>
-                                <div className="tab-pane fade" id="select" role="tabpanel"
+                                <div className="tab-pane fade" id="select-insert" role="tabpanel"
                                      aria-labelledby="contact-tab">
                                     <pre className="code-view-pre">
                                     {this.state.generatedSelectClass}
